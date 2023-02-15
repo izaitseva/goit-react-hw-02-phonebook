@@ -65,7 +65,6 @@ export class App extends React.Component {
         <Filter filterContacts={this.filterContacts} />
         <ContactList contactsList={this.getFilteredContacts()} removeContacts={this.removeContacts} />
       </div>
-
     );
   }
 };
